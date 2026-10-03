@@ -2,18 +2,25 @@
  tests, and why it may or may not be a reasonable goal for 
  some projects.
 
-Full coverage means having a test for every piece of code you 
-write, testing all possible ways to use a function and different 
+Full coverage means having a test for every line of code you 
+write, testing all possible ways to use a function and 
 each branch in a loop. It can also help ensure your code stands 
 up against different types of input. There are a few issues with 
 full coverage, and why it may not be a reasonable goal for your 
 program. First, it's not always possible to know and test every 
 scenario your code may go through. This brings Sims 4 to mind. 
-Where there are multiple different types of DLC that can 
+where there are multiple different types of DLC that can 
 significantly change the game while also interacting 
-with other DLC packs. Every person's game looks significantly 
+with other DLC packs. Every person's game looks very  
 different. Because of the complexity, it can be difficult to test 
 every single scenario for each line of code. Full coverage shouldn't 
 be thought of as a "catch all" when working with big, complex programs. 
 
-Bringing me to my second point, 
+Bringing me to my second point, depending on the size of the program it 
+may not be worth it to get full coverage. Achieving full coverage for a 
+massive program, like Sims 4, would require a lot of time and energy that 
+may not be readily available. Especially for a program still in development 
+or taking on additions. For situations like this, it may be better to make 
+sure all critical pieces of code are tested as thoroughly as possible and 
+look at full coverage once the program is in a finished state (beyond 
+regular updates) and if widely used.
