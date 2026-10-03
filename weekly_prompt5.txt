@@ -1,0 +1,10 @@
+ Q: Explain what the term “full coverage” means with respect to 
+ tests, and why it may or may not be a reasonable goal for 
+ some projects.
+
+Full coverage means having a test for every piece of code you 
+write, testing all possible ways to use a function and different 
+each branch in a loop. It can also help ensure your code stands 
+up against different types of input. There are a few issues with 
+full coverage, and why it may not be a reasonable goal for your 
+program. 
